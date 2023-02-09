@@ -6175,7 +6175,7 @@ fieldset:disabled .btn {
     padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
     font-size: var(--bs-nav-link-font-size);
     font-weight: var(--bs-nav-link-font-weight);
-    color: var(--bs-nav-link-color);
+    color: #00a54f;
     transition: color .2s ease-in-out
 }
 
@@ -38746,7 +38746,7 @@ button.hamburger:before {
 .navbar.navbar-bg-dark button.hamburger,
 .navbar.navbar-dark button.hamburger,
 .navbar.position-absolute:not(.fixed):not(.navbar-light) button.hamburger {
-    color: #fff
+    color: #00a54f
 }
 
 .card {
