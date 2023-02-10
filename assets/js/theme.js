@@ -346,9 +346,11 @@ var theme = {
       var navi = document.createElement('div');
       navi.className = "swiper-navigation";
       var prev = document.createElement('div');
-      prev.className = "swiper-button swiper-button-prev";
+      prev.className = "";
+      // swiper-button swiper-button-prev
       var next = document.createElement('div');
-      next.className = "swiper-button swiper-button-next";
+      next.className = "";
+      // swiper-button swiper-button-next
       slider1.appendChild(controls);
       controls.appendChild(navi);
       navi.appendChild(prev);
