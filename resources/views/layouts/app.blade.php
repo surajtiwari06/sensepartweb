@@ -28,7 +28,7 @@
       <nav class="navbar navbar-expand-lg center-nav transparent navbar-light">
         <div class="container flex-lg-row flex-nowrap align-items-center">
           <div class="navbar-brand w-100">
-            <a href="{{ asset('index.html') }}">
+            <a href="{{ asset('/') }}">
               <img class="logo-dark" src="{{ asset('assets/img/sensepart-logo.png') }}" style="width: 150px;" srcset="./assets/img/logo-dark@2x.png 2x" alt="" />
               <img class="logo-light" src="{{ asset('assets/img/sensepart-logo.png') }}" style="width: 150px;"  srcset="./assets/img/logo-light@2x.png 2x" alt="" />
             </a>
