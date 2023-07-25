@@ -1,4 +1,4 @@
-oa@push('head')
+@push('head')
     <meta name="robots" content="noindex" />
     <link
           href="{{ asset('/vendor/orchid/favicon.svg') }}"
