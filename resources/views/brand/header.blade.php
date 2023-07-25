@@ -1,4 +1,4 @@
-@push('head')
+oa@push('head')
     <meta name="robots" content="noindex" />
     <link
           href="{{ asset('/vendor/orchid/favicon.svg') }}"
@@ -16,7 +16,7 @@
    <x-orchid-icon path="orchid" width="1.2em" height="1.2em"/>
 
     <p class="ms-3 my-0 d-none d-sm-block">
-        TMS
+       Sensepart
         <small class="align-top opacity">v1</small>
     </p>
 </div>
