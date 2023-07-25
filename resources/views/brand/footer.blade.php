@@ -1,5 +1,5 @@
 @guest
-    <p>Crafted with <span class="text-danger">♥</span> by TMS</p>
+    <p>Crafted with <span class="text-danger">♥</span> by Sensepart technologies</p>
 @else
 
     <div class="text-center user-select-none">
