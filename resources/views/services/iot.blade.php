@@ -1,241 +1,287 @@
 @extends('layouts.app')
 @section('content')
 
-<section class="wrapper bg-soft-primary">
-  <div class="container pt-10 pb-19 pt-md-14 pb-md-22 text-center">
-    <div class="row">
-      <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-        <div class="post-header">
-            <div class="post-category ">
-                <a href="#" class="hover" rel="category"></a>
-              </div>
-          <!-- /.post-category -->
-          <h1 class="display-1 mb-3">IOT sensors and gateway Solutions</h1>
-          <p class="lead px-md-12 px-lg-12 px-xl-15 px-xxl-18">We engage and consult extensively with our clients in order to understand their organizatinal need and demands. </p>
-        </div>
-        <!-- /.post-header -->
-      </div>
-      <!-- /column -->
-    </div>
-    <!-- /.row -->
-  </div>
-  <!-- /.container -->
-</section>
-<!-- /section -->
-<section class="wrapper bg-light wrapper-border">
-  <div class="container pb-8 pb-md-12">
-    <div class="row">
-      <div class="col-12">
-        <article class="mt-n21">
-          <figure class="rounded mb-8 mt-16 mt-md-0 mb-md-12"><img src="assets/img/futuristic-smart-city-with-5g-global-network-technology_11zon (1).jpg" style="width: 1000px; display: block; margin-left: auto; margin-right: auto;" alt="" /></figure>
-          <div class="row">
-            <div class="col-lg-10 offset-lg-1">
-              <h2 class="display-6 mb-4" style="text-align: justify;">Our Method</h2>
-              <div class="row gx-0">
-                <div class="#">
-                 <div class="col-md-0">
-                  <p style="text-align: justify;">
-                  <b>Client Focus:</b>Our goal is to satisfy our clients and help them achieve their objective.  Global Culture Our experienced professionals quickly adapt the global working culture and work according to the requirements.</p>
-                  <p><b>Cost Saving:</b>With our requirement expertise we deliver strategies and solutions to our clients which help them in cost reduction .  </p>
-                 </div>
-                <!--/column -->
-                 <div class="col-md-2 ms-auto">
-              <!--<ul class="list-unstyled">
-                    <li>
-                      <h5 class="mb-1">Date</h5>
-                      <p>17 May 2018</p>
-                    </li>
-                    <li>
-                      <h5 class="mb-1">Client Name</h5>
-                      <p>Cool House</p>
-                    </li>
-                  </ul>
-                  <a href="#" class="more hover">See Project</a>
-                 </div> -->
-                <!--/column -->
+    <div class="page-content">
+      <!-- breadcrumb-area-start -->
+      <section class="breadcrumb-area breadcrumb-wrap">
+          <div class="breadcrumb-bg" style="background-image: url('{{ asset('assets/img/slider/slider-3-thumb-3.jpg') }}');"></div>
+          <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12">
+                  <div class="tpbreadcrumb mb-15">
+                      <h2 class="breadcrumb-title">Internet of Things</h2>
+                  </div>
                 </div>
-              <!--/.row -->
             </div>
-            <!-- /column -->
           </div>
-          <!--/.row -->
-          <!-- <div class="row mt-5 gx-md-6 gy-6">
-             <div class="item col-md-6">
-              <figure class="#" style="width: 500px; display: block; margin-left: auto; margin-right: auto;"><img src="assets/img/athletic-woman-using-her-smartphone.jpg" alt="" /></figure>
-            </div>
-            
-            <div class="item col-md-6">
-              <figure class="#" style="width: 500px; display: block; margin-left: auto; margin-right: auto;"><img src="assets/img/woman-enjoying-vr-headset.jpg" alt="" /></figure>
-            </div> 
-            
-            <div class="item col-md-6">
-              <figure class="hover-scale rounded cursor-dark"><a href="assets/img/rpa-concept-with-blurry-hand-touching-screen.jpg" data-glightbox data-gallery="project-1"><img src="assets/img/rpa-concept-with-blurry-hand-touching-screen.jpg" alt="" /></a></figure>
-            </div>
-            
-            <div class="item col-md-6">
-              <figure class="hover-scale rounded cursor-dark"><a href="assets/img/Vector_2640.jpg" data-glightbox data-gallery="project-1"><img src="assets/img/Vector_2640.jpg" alt="" /></a></figure>
-            </div>
-            
-          </div> -->
-          <!-- /.row -->
-          <div class="row mt-8 mt-md-12">
-            <div class="col-md-10 offset-md-1 text-justify">
-              <h2 class="mb-4" style="text-align: justify;">About our Services</h2>
-              <p style="text-align: justify;"> <b>IOT consulting</b>- We have team of IOT experts working on industrial and domestic sensors and communicators .When electronic or electrical devices are connected to the internet they can send and receive information and that makes devices smart. IOT can program any device or actuator to perform desired actions based on sensor data. we have experts</p>
-              <p style="text-align: justify;"> <b>Project planning for IOT</b>- We understand your requirements and we help our clients with planning n, development , deployment and support of IOT project.</p>
-              <p style="text-align: justify;"> <b>Understand scope of the project-</b>Estimate project cost and timeline of every step  Define the skills and technologies needed for project .identifying possible project risks like budget , emergency changes in the project scope, adoption of new processes and technologies etc. Plan and deploy a data security strategy for the IOT project </p>
-              <p style="text-align: justify;"><b>IoT solution prototyping-</b>We build a general concept of your IoT solution and build a working prototype. Hardware planning we help you selecting appropriate IoT hardware for your project. we have in-depth knowledge of IoT Devices and its capabilities and limitations. Selection of hardware like temperature sensors, vibration sensors, energy sensors, light sensors, distance and proximity sensors etc. 
-              </p>                
-            </div>
-            <!-- /column -->
+          <div class="breadcrumb-shape">
+              <div class="breadcrumb-shape-1 wow fadeInRight" data-wow-duration="1.8s" data-wow-delay=".4s">
+                  <img src="{{ asset('assets/img/breadcrumb/breadcrumb-shape-1.png') }}" alt="">
+              </div>
+              <div class="breadcrumb-shape-4 wow slideInRight"  data-wow-duration="1.2s" data-wow-delay=".1s">
+                  <img src="{{ asset('assets/img/breadcrumb/breadcrumb-shape-3.png') }}" alt="">
+              </div>
+              <div class="breadcrumb-shape-5 wow slideInRight"  data-wow-duration="1.4s" data-wow-delay=".3s">
+                  <img src="{{ asset('assets/img/breadcrumb/breadcrumb-shape-2.png') }}" alt="">
+              </div>
           </div>
-          <!-- /.row -->
-        </article>
-        <!-- /.project -->
-      </div>
-      <!-- /column -->
-    </div>
-    <!-- /.row -->
-  </div>
-  <!-- /.container -->
-</section>
+      </section>
+      <!-- breadcrumb-area-end -->
 
-<section class="wrapper bg-light angled upper-end">
-  <div class="container py-2 py-md-4">
-    <div class="row">
-      <div class="#">
-        <h2 class="mb-8" style="text-align: justify;">Our process for Delivery.</h2>
-      </div>
-    </div>
-    <div class="swiper-container blog grid-view mb-10" data-margin="30" data-dots="true" data-items-xl="4" data-items-md="2" data-items-xs="1">
-      <div class="swiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <article>
-              <figure class="overlay overlay-1 hover-scale rounded mb-6"><a href="#"> <img src="assets/img/business-job-interview-concept_11zon.jpg" alt="" /></a>
-                <!-- <figcaption>
-                  <h5 class="from-top mb-0">Read More</h5>
-                </figcaption> -->
-              </figure>
-              <div class="post-header">
-                <h2 class="post-title h3 mb-3"><a class="link-dark" href="blog-post.html">Consulting - Post your IOT development requirement</a></h2>
-              </div> 
-              
-               <!-- <div class="post-footer">
-                <ul class="post-meta">
-                  <li class="post-date"><i class="uil uil-calendar-alt"></i><span>14 Apr 2022</span></li>
-                  <li class="post-comments"><a href="#"><i class="uil uil-file-alt fs-15"></i>Coding</a></li>
-                </ul>                 
-              </div> 
-               -->
-            </article>
-          
+      <!-- step-area-start -->
+      <section class="feature-area tp-feature-3-bg" data-background="{{ asset('assets/img/feature/three/feature-3-bg-1.jpg') }}">
+        <div class="container">
+          <div class="row align-items-end mb-50">
+            <div class="col-xl-5 col-lg-6">
+                <div class="tp-section tp-section-two mb-50 wow fadeInRight" data-wow-duration="1s"
+                  data-wow-delay=".4s">
+                  <span class="tp-section-sub-title">Explore Our Services</span>
+                  <h4 class="tp-section-title">IoT Development Services</h4>
+                </div>
+            </div>
+            <div class="offset-xl-2 col-xl-5 col-lg-6">
+                <div class="tp-section mb-40 wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s">
+                  <div class="tp-section-title-wrapper">
+                      <p>Empowering your business with our team of skilled developers and designers, 
+                          utilizing the latest technologies to craft robust, scalable, and user-friendly IOT applications.</p>
+                  </div>
+                </div>
+            </div>
           </div>
-          
-          <div class="swiper-slide">
-            <article>
-              <figure class="overlay overlay-1 hover-scale rounded mb-6"><a href="#"> <img src="assets/img/team-diverse-startup-company-colleague-entrepreneur-meeting-professional-workplace-broadroom_11zon.jpg" alt="" /></a>
-                <!-- <figcaption>
-                  <h5 class="from-top mb-0">Read More</h5>
-                </figcaption> -->
-              </figure>
-              <div class="post-header">
-                <h2 class="post-title h3 mb-3"><a class="link-dark" href="blog-post.html">Design and development - Work and plan with IOT Project manager</a></h2>
-              </div>
-              
-              <!-- <div class="post-footer">
-                <ul class="post-meta">
-                  <li class="post-date"><i class="uil uil-calendar-alt"></i><span>29 Mar 2022</span></li>
-                  <li class="post-comments"><a href="#"><i class="uil uil-file-alt fs-15"></i>Workspace</a></li>
-                </ul>
-                 
-              </div>  -->
-              
-            </article>
-            
+          <div class="row">
+            <div class="col-lg-12">
+                <div class="tp-feature-3-wrapper d-flex align-items-center justify-content-between">
+                  <div class="tp-feature-3-item text-center mb-60 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s" 
+                      style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.6s; animation-name: bounceIn;">
+                      <a href="#software-section">
+                      <div class="tp-feature-3-item-icon">
+                        <img src="{{ asset('assets/img/icon/embedded-software.png') }}" alt="" style="width: 50px;">
+                      </div>
+                      <div class="tp-feature-3-item-content">
+                        <h4 class="tp-feature-3-item-title">Embedded Software Development</h4>
+                        <span>E</span>
+                      </div>
+                      </a>
+                  </div>
+                  <div class="tp-feature-3-item text-center mb-60 wow bounceIn" data-wow-duration=".5s" data-wow-delay=".5s" 
+                      style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: bounceIn;">
+                      <a href="#hardware-section">
+                      <div class="tp-feature-3-item-icon">
+                        <img src="{{ asset('assets/img/icon/embedded-hardware.png') }}" alt="" style="width: 50px;">
+                      </div>
+                      <div class="tp-feature-3-item-content">
+                        <h4 class="tp-feature-3-item-title">Embedded Hardware Development</h4>
+                        <span>E</span>
+                      </div>
+                      </a>
+                  </div>
+                  <div class="tp-feature-3-item text-center mb-60 wow bounceIn" data-wow-duration=".4s" data-wow-delay=".4s" 
+                      style="visibility: visible; animation-duration: 0.4s; animation-delay: 0.4s; animation-name: bounceIn;">
+                      <a href="#product-section">
+                      <div class="tp-feature-3-item-icon">
+                        <img src="{{ asset('assets/img/icon/product-design.png') }}" alt="" style="width: 50px;">
+                      </div>
+                      <div class="tp-feature-3-item-content">
+                        <h4 class="tp-feature-3-item-title">Product<br> Design</h4>
+                        <span>P</span>
+                      </div>
+                      </a>
+                  </div>
+                  <div class="tp-feature-3-item text-center mb-60 wow bounceIn" data-wow-duration=".5s" data-wow-delay=".5s" 
+                      style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: bounceIn;">
+                      <a href="#proto-section">
+                      <div class="tp-feature-3-item-icon">
+                        <img src="{{ asset('assets/img/icon/production.png') }}" alt="" style="width: 50px;">
+                      </div>
+                      <div class="tp-feature-3-item-content">
+                        <h4 class="tp-feature-3-item-title">Protoyping and Production</h4>
+                        <span>P</span>
+                      </div>
+                      </a>
+                  </div>
+                </div>
+            </div>
           </div>
-          
-          <div class="swiper-slide">
-            <article>
-              <figure class="overlay overlay-1 hover-scale rounded mb-6"><a href="#"> <img src="assets/img/bussiness-people-working-team-office.jpg" alt="" /></a>
-                <!-- <figcaption>
-                  <h5 class="from-top mb-0">Read More</h5>
-                </figcaption> -->
-              </figure>
-              <div class="post-header">
-                <h2 class="post-title h3 mb-3"><a class="link-dark" href="blog-post.html">Development - A dedicated team of IOT developers assigned to the project</a></h2>
-              </div>
-              
-               <!-- <div class="post-footer">
-                <ul class="post-meta">
-                  <li class="post-date"><i class="uil uil-calendar-alt"></i><span>26 Feb 2022</span></li>
-                  <li class="post-comments"><a href="#"><i class="uil uil-file-alt fs-15"></i>Meeting</a></li>
-                </ul>
-               </div>  -->
-              
-            </article>
-            
-          </div>
-          
-          <div class="swiper-slide">
-            <article>
-              <figure class="overlay overlay-1 hover-scale rounded mb-6"><a href="#"> <img src="assets/img/quality-control-improvement-development-concept_11zon.jpg" alt="" /></a>
-                <!-- <figcaption>
-                  <h5 class="from-top mb-0">Read More</h5>
-                </figcaption> -->
-              </figure>
-              <div class="post-header">
-                <h2 class="post-title h3 mb-3"><a class="link-dark" href="blog-post.html">QA and testing - A dedicated QA & testing team assigned to the project</a></h2>
-              </div>
-              <!-- <div class="post-footer">
-                <ul class="post-meta">
-                  <li class="post-date"><i class="uil uil-calendar-alt"></i><span>7 Jan 2022</span></li>
-                  <li class="post-comments"><a href="#"><i class="uil uil-file-alt fs-15"></i>Business Tips</a></li>
-                </ul>                 
-              </div>  -->
-              
-            </article>
-            
-          </div>
-          
         </div>
-        
-      </div>
-      
-    </div>
-   
-  </div>
-  
-</section>
-<!-- /section -->
-<!-- <section class="wrapper bg-light">
-  <div class="container py-10">
-    <div class="row gx-md-6 gy-3 gy-md-0">
-      <div class="col-md-8 align-self-center text-center text-md-start navigation">
-        <a href="#" class="btn btn-soft-ash rounded-pill btn-icon btn-icon-start mb-0 me-1"><i class="uil uil-arrow-left"></i> Prev Post</a>
-        <a href="#" class="btn btn-soft-ash rounded-pill btn-icon btn-icon-end mb-0">Next Post <i class="uil uil-arrow-right"></i></a>
-      </div>
+      </section>
+      <!-- step-area-end -->
 
-      <aside class="col-md-4 sidebar text-center text-md-end">
-        <div class="dropdown share-dropdown btn-group">
-          <button class="btn btn-red rounded-pill btn-icon btn-icon-start dropdown-toggle mb-0 me-0" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="uil uil-share-alt"></i> Share </button>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#"><i class="uil uil-twitter"></i>Twitter</a>
-            <a class="dropdown-item" href="#"><i class="uil uil-facebook-f"></i>Facebook</a>
-            <a class="dropdown-item" href="#"><i class="uil uil-linkedin"></i>Linkedin</a>
+      <!-- sercices-area-start -->
+      <section class="services-area pt-115 pb-80">
+        <div class="container">
+          <div class="row mb-15">
+                <div class="col-lg-6" id="software-section">
+                    <div class="tp-services-details-wrapper">
+                    <h4 class="tp-services-details-title">Embedded Software Development</h4>
+                    <p>
+                      Empower your devices with cutting-edge intelligence through our Embedded Software Development solutions. 
+                      From microcontrollers to complex systems, we specialize in crafting software that seamlessly integrates 
+                      with hardware, optimizing performance and functionality. Our expertise extends to various industries, 
+                      including automotive, consumer electronics, healthcare, and IoT, ensuring that your embedded systems 
+                      operate reliably in diverse environments, from factory floors to remote locations.
+                    </p>                      
+                    <div class="tp-services-details-check d-flex align-items-center mt-50">
+                        <div class="tp-services-details-check-item d-flex align-items-center mb-55">
+                            <i class="fa-light fa-check"></i>
+                            <span>Tailored development process for project-specific needs.</span>
+                          </div>
+                          <div class="tp-services-details-check-item d-flex align-items-center ml-55 mb-55">
+                              <i class="fa-light fa-check"></i>
+                              <span>Rigorous testing ensures reliability and stability.</span>
+                          </div>
+                    </div>
+                    </div>                 
+                </div>
+                <div class="col-lg-6">                      
+                  <div class="tp-management-thumb-wrap p-relative">
+                    <div class="tp-management-thumb overlay-anim tp-thumb-common fix w-img mb-60 wow fadeInUp"
+                        data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="tp-thumb-common-overlay wow"></div>
+                        <img src="{{ asset('assets/img/thumbs/software.webp') }}" alt="">
+                    </div>
+                    <div class="tp-management-shape-1">
+                        <img src="{{ asset('assets/img/shape/management-shape-1.png') }}" alt="">
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="tp-services-details-faq mb-70">
+              <div class="row">
+                  <div class="col-lg-6">
+                      <div class="tp-services-details-faq-item d-flex align-items-center mb-50">
+                      <div class="tp-services-details-faq-item-icon">
+                          <i class="flaticon-medal"></i>
+                      </div>
+                      <div class="tp-services-details-faq-item-content">
+                          <h4 class="tp-services-details-faq-title">Innovative Solutions</h4>
+                          <span>We strive to provide cutting-edge and innovative solutions</span>
+                      </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-6">
+                      <div class="tp-services-details-faq-item d-flex align-items-center mb-50">
+                      <div class="tp-services-details-faq-item-icon">
+                          <i class="flaticon-medal"></i>
+                      </div>
+                      <div class="tp-services-details-faq-item-content">
+                          <h4 class="tp-services-details-faq-title">Reliable Support</h4>
+                          <span>Our dedicated support team ensures prompt and reliable assistance</span>
+                      </div>
+                      </div>
+                  </div>
+              </div>
           </div>
-      
+            <div class="row mb-70">
+              <div class="col-lg-6"> 
+                  <div class="tp-management-thumb-wrap p-relative">
+                    <div class="tp-management-thumb overlay-anim tp-thumb-common fix w-img mb-60 wow fadeInUp mt-50"
+                        data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="tp-thumb-common-overlay wow"></div>
+                        <img src="{{ asset('assets/img/thumbs/embedded-hardware.jpg') }}" alt="">
+                    </div>
+                    <div class="tp-management-shape-1">
+                        <img src="{{ asset('assets/img/shape/management-shape-1.png') }}" alt="">
+                    </div>
+                  </div>
+              </div>
+              <div class="col-lg-6 text-end" id="hardware-section">
+                  <div class="tp-services-details-wrapper">
+                  <h4 class="tp-services-details-title">Embedded Hardware Development</h4>
+                  <p>
+                    Elevate your hardware capabilities with our Embedded Hardware Development solutions, 
+                    meticulously tailored to meet the demands of modern technology. From concept to prototype,
+                    our team specializes in designing and optimizing hardware components for seamless integration 
+                    with software systems. Whether you're developing IoT devices, industrial machinery, or consumer 
+                    electronics, our expertise ensures robust and reliable hardware solutions that push the boundaries of innovation.
+                  </p>                      
+                  <div class="tp-services-details-check d-flex align-items-center mt-50">
+                      <div class="tp-services-details-check-item d-flex align-items-center mb-55">
+                          <i class="fa-light fa-check"></i>
+                          <span>Customized hardware solutions for diverse needs.</span>
+                        </div>
+                        <div class="tp-services-details-check-item d-flex align-items-center ml-55 mb-55">
+                            <i class="fa-light fa-check"></i>
+                            <span>Advanced prototyping techniques for rapid iteration and refinement.</span>
+                        </div>
+                  </div>
+                  </div>
+              </div>   
+          </div>
+            <div class="row mb-70">
+              <div class="col-lg-6" id="product-section">
+                  <div class="tp-services-details-wrapper">
+                  <h4 class="tp-services-details-title">Product Design</h4>
+                  <p>
+                    Revolutionize your product vision with our comprehensive Product Design services, meticulously
+                     tailored to bring your ideas to life. From concept to prototype, we specialize in creating 
+                     innovative and user-centric designs that captivate audiences and exceed expectations. Our 
+                     multidisciplinary approach combines creativity with technical expertise to deliver solutions 
+                     that not only look stunning but also function seamlessly across various platforms and devices.
+                </p>
+                  <div class="tp-services-details-check d-flex align-items-center mt-50">
+                    <div class="tp-services-details-check-item d-flex align-items-center mb-55">
+                          <i class="fa-light fa-check"></i>
+                          <span>Refining concepts and ensuring optimal user experience</span>
+                          </div>
+                          <div class="tp-services-details-check-item d-flex align-items-center ml-55 mb-55">
+                                <i class="fa-light fa-check"></i>
+                                <span>Cutting-edge technologies to enhance product functionality</span>
+                          </div>
+                  </div>
+                  </div>
+              </div>
+              <div class="col-lg-6">                      
+                  <div class="tp-management-thumb-wrap p-relative">
+                    <div class="tp-management-thumb overlay-anim tp-thumb-common fix w-img mb-60 wow fadeInUp"
+                        data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="tp-thumb-common-overlay wow"></div>
+                        <img src="{{ asset('assets/img/thumbs/design.jpg') }}" alt="">
+                    </div>
+                    <div class="tp-management-shape-1">
+                        <img src="{{ asset('assets/img/shape/management-shape-1.png') }}" alt="">
+                    </div>
+                </div>
+              </div>
+          </div>
+            <div class="row mb-70">
+                <div class="col-lg-6">                      
+                    <div class="tp-management-thumb-wrap p-relative">
+                        <div class="tp-management-thumb overlay-anim tp-thumb-common fix w-img mb-60 wow fadeInUp"
+                          data-wow-duration="1s" data-wow-delay=".4s">
+                          <div class="tp-thumb-common-overlay wow"></div>
+                          <img src="{{ asset('assets/img/thumbs/production1.jpg') }}" alt="">
+                        </div>
+                        <div class="tp-management-shape-1">
+                          <img src="{{ asset('assets/img/shape/management-shape-1.png') }}" alt="">
+                        </div>
+                    </div>
+                </div>
+                  <div class="col-lg-6" id="proto-section">
+                    <div class="tp-services-details-wrapper">
+                        <h4 class="tp-services-details-title">Protoyping and Production</h4>
+                        <p>
+                          Transform your innovative concepts into tangible reality with our Prototyping and Production 
+                          services, meticulously designed to accelerate your product development journey. From initial 
+                          idea to final product, we provide comprehensive support at every stage, leveraging advanced 
+                          technologies and industry expertise to bring your vision to life.
+                        </p>
+                        <div class="tp-services-details-check d-flex align-items-center mt-50">
+                          <div class="tp-services-details-check-item d-flex align-items-center mb-55">
+                                <i class="fa-light fa-check"></i>
+                                <span>Rapid prototyping for quick validation of design concepts</span>
+                              </div>
+                              <div class="tp-services-details-check-item d-flex align-items-center ml-55 mb-55">
+                                <i class="fa-light fa-check"></i>
+                                <span>Streamlined production processes ensuring scalability and efficiency.</span>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    
-      </aside>
-  
-    </div>
-  
-  </div>
- 
-</section>
+      </section>
+      <!-- sercices-area-end -->
 
-</div> -->
+    </div>
 
 @endsection

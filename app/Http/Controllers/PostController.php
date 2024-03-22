@@ -52,14 +52,15 @@ class PostController extends Controller
  */
 public function show(Post $post)
 {
+  
+    // dd($post);
     // Retrieve the next and previous posts
     $previous = Post::where('id', '<', $post->id)->orderBy('id', 'desc')->first();
     $next = Post::where('id', '>', $post->id)->orderBy('id')->first();
     $recentposts = Post::orderBy('id', 'desc')->take(5)->get();
     // Pass the current post, previous post, and next post to the view
-    return view('blog.blog_detail', compact('post', 'previous', 'next','recentposts'));
+    return view('blog.blog_detail', compact('post','previous','next','recentposts'));
 }
-
 
     /**
      * Show the form for editing the specified resource.

@@ -22,10 +22,13 @@ Route::get('/about', function () {
     return view('about');
 })->name('about');
 
-Route::get('/staffing', function () {
-    return view('services.staffing');
-})->name('staffing'); 
+// Route::get('/staffing', function () {
+//     return view('services.staffing');
+// })->name('staffing'); 
 
+Route::get('/hire', function () {
+    return view('services.hire');
+})->name('hire');
 
 Route::get('/iot', function () {
     return view('services.iot');
@@ -35,15 +38,17 @@ Route::get('/ai_ml', function () {
     return view('services.aiml');
 })->name('ai_ml'); 
 
-Route::get('/di_bi', function () {
-    return view('services.dibi');
-})->name('di_bi'); 
-Route::get('/softwaretesting', function () {
-    return view('services.softwaretesting');
-})->name('softwaretesting'); 
-Route::get('/nabl', function () {
-    return view('services.nabl');
-})->name('nabl'); 
+// Route::get('/di_bi', function () {
+//     return view('services.dibi');
+// })->name('di_bi'); 
+
+// Route::get('/softwaretesting', function () {
+//     return view('services.softwaretesting');
+// })->name('softwaretesting'); 
+
+Route::get('/web', function () {
+    return view('services.web');
+})->name('web'); 
 
 Route::get('/software', function () {
     return view('services.software');

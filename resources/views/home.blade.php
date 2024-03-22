@@ -1,282 +1,364 @@
 @extends('layouts.app')
 @section('content')
   
-
-
-    <!-- CONTENT START -->
+     <!-- CONTENT START -->
     <div class="page-content">
-        <!-- Content strat -->
-        <div class="section-full p-t120 p-b90 twm-how-it-work-area"
-            style="background-image:  url('{{ asset('images/home-7/hiw-bg.jpg') }}');">
-            <section class="wrapper bg-dark">
-                <div class="swiper-container swiper-hero dots-over" data-margin="0" data-autoplay="true" data-autoplaytime="7000" data-nav="true" data-dots="true" data-items="1">
-                  <div class="swiper">
-                    <div class="swiper-wrapper">
-                      <!--/.swiper-slide -->
-                      
-                      <div class="swiper-slide bg-overlay bg-overlay-400 bg-dark bg-image" data-image-src="assets/img/rear-view-programmer-working-all-night-long_11zon.jpg">
-                        <div class="container h-100">
-                          <div class="row h-100">
-                            <div class="col-md-10 offset-md-1 col-lg-7 offset-lg-0 col-xl-6 col-xxl-5 text-center text-lg-start justify-content-center align-self-center align-items-start">
-                              <h2 class="display-1 fs-56 mb-4 text-white animate__animated animate__slideInDown animate__delay-1s">Software Development</h2>
-                              <p class="lead fs-23 lh-sm mb-7 text-white animate__animated animate__slideInRight animate__delay-2s">Purpose of software is to turn data into Information. When that data is processed into sets according to context, it provides information.</p>
-                              <div class="animate__animated animate__slideInUp animate__delay-3s"><a href="./Software_Development.html" class="btn btn-lg btn-outline-white rounded-pill">Read More</a></div>
+          <!-- hero -->
+          <section class="slider-area tp-slider-wrap">
+            <div class="swiper-container tp-slider-active">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="tp-slider-wrapper">
+                      <div class="tp-slider-bg"  style="background-image: url('{{ asset('assets/img/slider/slider-3-thumb-5.jpg') }}');"></div>
+                      <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                              <div class="tp-slider-content">
+                                  <span class="tp-slider-sub-title">Innovating Tech Solution</span>
+                                  <h2 class="tp-slider-title">Convert Your <br>Idea Into Reality </h2>
+                                   <div class="tp-slider-btn">
+                                    <a class="tp-btn" href="{{ asset('about') }}">Discover More</a>
+                                  </div> 
+                              </div>
                             </div>
-                            <!--/column -->
-                          </div>
-                          <!--/.row -->
                         </div>
-                        <!--/.container -->
                       </div>
-                      
-                      <div class="swiper-slide bg-overlay bg-overlay-400 bg-dark bg-image" data-image-src="assets/img/cyborg-hand-finger.jpg_11zon.jpg">
-                        <div class="container h-100">
-                          <div class="row h-100">
-                            <div class="col-md-10 offset-md-1 col-lg-7 offset-lg-0 col-xl-6 col-xxl-5 text-center text-lg-start justify-content-center align-self-center align-items-start">
-                              <h2 class="display-1 fs-56 mb-4 text-white animate__animated animate__slideInDown animate__delay-1s">AI and ML</h2>
-                              <p class="lead fs-23 lh-sm mb-7 text-white animate__animated animate__slideInRight animate__delay-2s">Represents an important evolution in computer science and data processing that is quickly transforming a vast array of industries</p>
-                              <div class="animate__animated animate__slideInUp animate__delay-3s"><a href="./AI_&_ML.html" class="btn btn-lg btn-outline-white rounded-pill">Read More</a></div>
-                            </div>
-                            <!--/column -->
-                          </div>
-                          <!--/.row -->
-                        </div>
-                        <!--/.container -->
-                      </div>
-                      
-                      <div class="swiper-slide bg-overlay bg-overlay-400 bg-dark bg-image" data-image-src="assets/img/futuristic-smart-city-with-5g-global-network-technology_11zon (1).jpg">
-                        <div class="container h-100">
-                          <div class="row h-100">
-                            <div class="col-md-10 offset-md-1 col-lg-7 offset-lg-0 col-xl-6 col-xxl-5 text-center text-lg-start justify-content-center align-self-center align-items-start">
-                              <h2 class="display-1 fs-56 mb-4 text-white animate__animated animate__slideInDown animate__delay-1s">IOT Solutions</h2>
-                              <p class="lead fs-23 lh-sm mb-7 text-white animate__animated animate__slideInRight animate__delay-2s">The IoT solutions have helped connect devices, manage tasks, analyze opportunities, and transfer information in a secure way. They provide a safe environment to operate in and help achieve business growth.</p>
-                              <div class="animate__animated animate__slideInUp animate__delay-3s"><a href="./IOT_Solutions.html" class="btn btn-lg btn-outline-white rounded-pill">Read More</a></div>
-                            </div>
-                            <!--/column -->
-                          </div>
-                          <!--/.row -->
-                        </div>
-                        <!--/.container -->
-                      </div>
-          
-                      <div class="swiper-slide bg-overlay bg-overlay-400 bg-dark bg-image" data-image-src="assets/img/data-technology-blue-background-with-hacker-remixed-media_11zon.jpg">
-                        <div class="container h-100">
-                          <div class="row h-100">
-                            <div class="col-md-10 offset-md-1 col-lg-7 offset-lg-0 col-xl-6 col-xxl-5 text-center text-lg-start justify-content-center align-self-center align-items-start">
-                              <h2 class="display-1 fs-56 mb-4 text-white animate__animated animate__slideInDown animate__delay-1s">Software Testing</h2>
-                              <p class="lead fs-23 lh-sm mb-7 text-white animate__animated animate__slideInRight animate__delay-2s">It is a research method that involves asking customers questions about your concepts and ideas for a product or service before actually launching it.</p>
-                              <div class="animate__animated animate__slideInUp animate__delay-3s"><a href="./testing_software.html" class="btn btn-lg btn-outline-white rounded-pill">Read More</a></div>
-                            </div>
-                            <!--/column -->
-                          </div>
-                          <!--/.row -->
-                        </div>
-                        <!--/.container -->
-                      </div>
-                      
-                      <div class="swiper-slide bg-overlay bg-overlay-400 bg-dark bg-image" data-image-src="assets/img/doctor-performing-medical-research-lab_11zon.jpg">
-                        <div class="container h-100">
-                          <div class="row h-100">
-                            <div class="col-md-10 offset-md-1 col-lg-7 offset-lg-0 col-xl-6 col-xxl-5 text-center text-lg-start justify-content-center align-self-center align-items-start">
-                              <h2 class="display-1 fs-56 mb-4 text-white animate__animated animate__slideInDown animate__delay-1s">NABL acrreditations</h2>
-                              <p class="lead fs-23 lh-sm mb-7 text-white animate__animated animate__slideInRight animate__delay-2s">Accreditation helps to reduce costs for manufacturers and exporters who have their products or materials tested in accredited laboratories, by reducing or eliminating the need for retesting in another country.</p>
-                              <div class="animate__animated animate__slideInUp animate__delay-3s"><a href="./NABL.html" class="btn btn-lg btn-outline-white rounded-pill">Read More</a></div>
-                            </div>
-                       
-                          </div>
-                       
-                        </div>
-                      
-                      </div>
-          
-                      <div class="swiper-slide bg-overlay bg-overlay-400 bg-dark bg-image" data-image-src="assets/img/woman-selecting-pictures-people_11zon.jpg">
-                        <div class="container h-100">
-                          <div class="row h-100">
-                            <div class="col-md-10 offset-md-1 col-lg-7 offset-lg-0 col-xl-6 col-xxl-5 text-center text-lg-start justify-content-center align-self-center align-items-start">
-                              <h2 class="display-1 fs-56 mb-4 text-white animate__animated animate__slideInDown animate__delay-1s">Staffing services & RPO</h2>
-                              <p class="lead fs-23 lh-sm mb-7 text-white animate__animated animate__slideInRight animate__delay-2s">Recruitment process outsourcing (RPO) is the process by which a business outsources part of or all its recruitment function to an external partner.</p>
-                              <div class="animate__animated animate__slideInUp animate__delay-3s"><a href="./recruitment_project.html" class="btn btn-lg btn-outline-white rounded-pill">Read More</a></div>
-                            </div>
-                            <!--/column -->
-                          </div>
-                          <!--/.row -->
-                        </div>
-                        <!--/.container -->
-                      </div>
-                      <!--/.swiper-slide -->
-                    </div>
-                    <!--/.swiper-wrapper -->
                   </div>
-                  <!-- /.swiper -->
                 </div>
-                <!-- /.swiper-container -->
-              </section>
-              <!-- /section -->
-              <section class="wrapper bg-light">
-                <div class="container pt-5 pt-md-8 pb-7 pb-md-10">
-                  <div class="row">
-                    <div class="col-lg-8 col-xl-7 col-xxl-6">
-                      <h2 class="fs-16 text-uppercase text-line text-primary mb-3">What We Do?</h2>
-                      <h3 class="display-4 mb-9">The service we offer is specifically designed to meet your needs.</h3>
-                    </div>
-                    <!-- /column -->
-                  </div>
-                  <!-- /.row -->
-                  <div class="row gx-md-8 gy-8 mb-14 mb-md-10">
-                    <div class="col-md-6 col-lg-4">
-                      <div class="icon btn btn-block btn-lg btn-soft-primary pe-none mb-6"> <i class="uil uil-users-alt"></i> </div>
-                      <h4>Staffing services and RPO</h4>
-                      <p class="mb-3">Permanent hiring  | Contract hiring | remote hiring | Recruitment process outsourcing  | Video interviews | AI shortlisting |</p>
-                      <a href="recruitment_project.html" class="more hover link-primary">Learn More<i class="uil uil-angle-double-right"></i></a>
-                    </div>
-                    <!--/column -->
-                    <div class="col-md-6 col-lg-4">
-                      <div class="icon btn btn-block btn-lg btn-soft-primary pe-none mb-6"> <i class="bi bi-window-fullscreen"></i> </div>
-                      <h4>Softare Development</h4>
-                      <p class="mb-3">Software Product Development | Custom ERP | Enterprise Software Development | Cloud Software Development | Dashboards | API </p>
-                      <a href="Software_Development.html" class="more hover link-primary">Learn More<i class="uil uil-angle-double-right"></i></a>
-                    </div>
-                    <!--/column -->
-                    <div class="col-md-6 col-lg-4">
-                      <div class="icon btn btn-block btn-lg btn-soft-primary pe-none mb-6"> <i class="uil uil-laptop-cloud"></i> </div>
-                      <h4>IOT sensors and gateway Solutions</h4>
-                      <p class="mb-3">Motion Sensors | Temprature Sensors | Distance sensors | Sound and velociety | MEMS sensors | IOT gateways | Zigbee | bluetooth | </p>
-                      <a href="IOT_Solutions.html" class="more hover link-primary">Learn More<i class="uil uil-angle-double-right"></i></a>
-                    </div> 
-          
-                  <div class="row gx-md-8 gy-8 mb-9 mb-md-5;">
-                    <!--/column -->
-                    <div class="col-md-6 col-lg-4">
-                      <div class="icon btn btn-block btn-lg btn-soft-primary pe-none mb-6"> <i class="uil uil-arrow"></i> </div>
-                      <h4>NABL Accreditation & Academy</h4>
-                      <p class="mb-3">NABL Consulting | Calibration lab  setup | Lab engineer training | Lab Software development | Sensor calibration |</p>
-                      <a href="NABL.html" class="more hover link-primary">Learn More  <i class="uil uil-angle-double-right"></i></a>
-                    </div>
-                    <!--/column -->
-                    <div class="col-md-6 col-lg-4">
-                      <div class="icon btn btn-block btn-lg btn-soft-primary pe-none mb-6"> <i class="uil uil-laptop-cloud"></i> </div>
-                      <h4>Software Testing</h4>
-                      <p class="mb-3">Manual Testing |  Automated Testing | integration Testing |  Object-Oriented Testing | Performance Testing | Stress Testing</p>
-                      <a href="testing_software.html" class="more hover link-primary">Learn More<i class="uil uil-angle-double-right"></i></a>
-                    </div>
-                    <!--/column -->
-                    <div class="col-md-6 col-lg-4">
-                      <div class="icon btn btn-block btn-lg btn-soft-primary pe-none mb-6"> <iconify-icon icon="file-icons:robots"></iconify-icon> </div>
-                      <h4>AI and ML</h4>
-                      <p class="mb-3">Developement of AI & ML  | Pattern Recognition  | Computer Vision & Image Processing  |  Natural Language Processing |</p>
-                      <a href="AI_&_ML.html" class="more hover link-primary">Learn More<i class="uil uil-angle-double-right"></i></a>
-                    </div>
-                    <!--/column -->
-                  </div>
-                  <!--/.row -->
-                  <div class="row gy-10 gy-sm-2 gx-lg-3 mb-16 mb-md-0
-                   align-items-center">
-                    <div class="col-md-8 col-lg-6 position-relative">
-                      <div class="shape bg-dot primary rellax w-17 h-21" data-rellax-speed="1" style="top: -2rem; left: -1.9rem;"></div>
-                      <div class="shape rounded bg-soft-primary rellax d-md-block" data-rellax-speed="0" style="bottom: -1.8rem; right: -1.5rem; width: 85%; height: 90%; "></div>
-                      <figure class="rounded"><img src="./assets/img/collaborative-process-multicultural-businesspeople-using-laptop-presentation-communication-meeting-brainstorming-ideas-about-project-colleagues-working-plan-success-strategy-modern-office 2.jpg" srcset="./assets/img/photos/about7@2x.jpg 2x" alt="" /></figure>
-                    </div>
-                    <!--/column -->
-                    <div class="col-lg-5 col-xl-4 offset-lg-1">
-                      <h2 class="fs-16 text-uppercase text-line text-primary mb-3">How It Works?</h2>
-                      <h3 class="display-4 mb-7">Here are the 3 working steps on success.</h3>
-                      <div class="d-flex flex-row mb-6">
-                        <div>
-                          <span class="icon btn btn-block btn-soft-primary pe-none me-5"><span class="number fs-18">1</span></span>
-                        </div>
-                        <div>
-                          <h4 class="mb-1">Collect Ideas</h4>
-                          <p class="mb-0">This gathering activity allows obtaining ideas from the participants. It formalise activity such as Visual Strategy Mapping.</p>
-                        </div>
-                      </div>
-                      <div class="d-flex flex-row mb-6">
-                        <div>
-                          <span class="icon btn btn-block btn-soft-primary pe-none me-5"><span class="number fs-18">2</span></span>
-                        </div>
-                        <div>
-                          <h4 class="mb-1">Data Analysis</h4>
-                          <p class="mb-0"> process of inspecting, cleansing, transforming, and modeling data with the goal of discovering useful information, informing conclusions, and supporting decision-making.</p>
-                        </div>
-                      </div>
-                      <div class="d-flex flex-row">
-                        <div>
-                          <span class="icon btn btn-block btn-soft-primary pe-none me-5"><span class="number fs-18">3</span></span>
-                        </div>
-                        <div>
-                          <h4 class="mb-1">Finalize Product</h4>
-                          <p class="mb-0">The process of finalizing and documenting a product formula is essential. It contains all the information necessary for a product’s reproduction, including testing results</p>
-                        </div>
-                      </div>
-                    </div>
-                    <!--/column -->
-                  </div>
-                  <!--/.row -->
-                  <div class="row gy-10 gy-sm-13 gx-lg-3 align-items-center">
-                    <div class="col-md-8 col-lg-6 offset-lg-1 order-lg-2 position-relative">
-                      <div class="shape rounded-circle bg-line primary rellax w-18 h-18" data-rellax-speed="1" style="top: -2rem; right: -1.9rem;"></div>
-                      <div class="shape rounded bg-soft-primary rellax d-md-block" data-rellax-speed="0" style="bottom: -1.8rem; left: -1.5rem; width: 85%; height: 90%; "></div>
-                      <figure class="rounded"><img src="assets/img/photos/about9.jpg" srcset="./assets/img/photos/about9@2x.jpg 2x" alt=""></figure>
-                    </div>
-                    <!--/column -->
-                    <div class="col-lg-5">
-                      <h2 class="fs-16 text-uppercase text-line text-primary mb-3">Why Choose Us?</h2>
-                      <h3 class="display-4 mb-7">A few reasons why our valued customers choose us.</h3>
-                      <div class="accordion accordion-wrapper" id="accordionExample">
-                        <div class="card plain accordion-item">
-                          <div class="card-header" id="headingOne">
-                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> Professionally Designing and structuring </button>
+                  <div class="swiper-slide">
+                    <div class="tp-slider-wrapper">
+                        <div class="tp-slider-bg"  style="background-image: url('{{ asset('assets/img/slider/slider-3-thumb-1.jpg') }}');"></div>
+                        <div class="container">
+                          <div class="row">
+                              <div class="col-lg-12">
+                                <div class="tp-slider-content">
+                                    <span class="tp-slider-sub-title">Innovating Tech Solution</span>
+                                    <h2 class="tp-slider-title">Software<br>Development</h2>
+                                    <div class="tp-slider-btn">
+                                      <a class="tp-btn" href="{{ asset('software') }}">Discover More</a>
+                                    </div>
+                                </div>
+                              </div>
                           </div>
-                          <!--/.card-header -->
-                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                            <div class="card-body">
-                              <p> We take into consideration everything from aesthetics to substrates to prepress, binding, and finishing that the average marketer can't possibly be expected to know.</p>
-                            </div>
-                            <!--/.card-body -->
-                          </div>
-                          <!--/.accordion-collapse -->
                         </div>
-                        <!--/.accordion-item -->
-                        <div class="card plain accordion-item">
-                          <div class="card-header" id="headingTwo">
-                            <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> Top-Notch Support </button>
-                          </div>
-                          <!--/.card-header -->
-                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                            <div class="card-body">
-                              <p> We are an excellent service provider and it becomes our foremost responsibility that we understand your needs, respponds promptly and ask for the feedback to remodify the product.</p>
-                            </div>
-                            <!--/.card-body -->
-                          </div>
-                          <!--/.accordion-collapse -->
-                        </div>
-                        <!-- /.accordion-item -->
-                      
-                      </div>
-                    </div> 
-                    <!--/column -->
-                  </div>
-                  <!--/.row -->
-                </div>
-                <!-- /.container -->
-              </section>
-              <!-- /section -->
-              <section class="wrapper image-wrapper bg-image bg-overlay" data-image-src="assets/img/photos/bg1.jpg">
-                <!-- <div class="container py-18">
-                  <div class="row">
-                    <div class="col-lg-8">
-                      <h2 class="fs-16 text-uppercase text-line text-white mb-3">Join Our Community</h2>
-                      <h3 class="display-4 mb-6 text-white pe-xxl-18">We are trusted by over 5000+ clients. Join them by using our services and grow your business.</h3>
-                      <a href="#" class="btn btn-white rounded mb-0 text-nowrap">Join Us</a>
                     </div>
-                   
                   </div>
-                  
-                </div> -->
-                <!-- /.container -->
-              </section>
-              
-              <!-- /section -->
+                  <div class="swiper-slide">
+                    <div class="tp-slider-wrapper">
+                        <div class="tp-slider-bg" style="background-image: url('{{ asset('assets/img/slider/image.png') }}');"></div>
+                        <div class="container">
+                          <div class="row">
+                              <div class="col-lg-12">
+                                <div class="tp-slider-content">
+                                    <span class="tp-slider-sub-title">Innovating Tech Solution</span>
+                                    <h2 class="tp-slider-title"><span>Artificial <br> Intelligence</h2>
+                                    <div class="tp-slider-btn">
+                                      <a class="tp-btn" href="{{ asset('ai_ml') }}">Discover More</a>
+                                    </div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="tp-slider-wrapper">
+                        <div class="tp-slider-bg" style="background-image: url('{{ asset('assets/img/slider/slider-3-thumb-3.jpg') }}');"></div>
+                        <div class="container">
+                          <div class="row">
+                              <div class="col-lg-12">
+                                <div class="tp-slider-content">
+                                    <span class="tp-slider-sub-title">Innovating Tech Solution</span>
+                                    <h2 class="tp-slider-title"><span>Internet <br> Of Things</h2>
+                                    <div class="tp-slider-btn">
+                                      <a class="tp-btn" href="{{ asset('iot') }}">Discover More</a>
+                                    </div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>                      
+                    </div>
+                  </div> 
+              </div>
             </div>
-            <!-- /.content-wrapper -->
-    <!-- CONTENT END -->
+            <div class="tp-slider-dot"></div>
+          </section>
+          <!-- hero-end -->
+
+           <!-- welcome-start -->
+          <section class="about-area pt-115 tp-about-3 pb-60">
+            <div class="container">
+              <div class="row">
+                  <div class="col-lg-5">
+                    <div class="tp-about-3-wrap">
+                        <div class="tp-about-3-thumb-1 tp-thumb-common fix mb-10 mr-50 wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
+                          <div class="tp-thumb-common-overlay wow"></div>
+                          <img src="{{ asset('assets/img/about/three/about-3-thumb-3.jpg') }}" alt="">
+                        </div>
+                        <div class="tp-about-3-thumb-2 wow fadeInLeft ml-50 tp-thumb-common fix" data-wow-duration="1s" data-wow-delay=".5s">
+                          <div class="tp-thumb-common-overlay wow"></div>
+                          <img src="{{ asset('assets/img/about/three/about-3-thumb-4.jpg') }}" alt="">
+                        </div>
+                    </div>
+                  </div>
+                  <div class="offset-lg-1 col-lg-6">
+                    <div class="tp-about-3-wrapper mb-50 wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
+                        <div class="tp-section tp-section-3 mb-50">
+                          <span class="tp-section-sub-title">Welcome to Sensepart</span>
+                          <h4 class="tp-section-title">Solutions Tailored to Your <br>IT Challenges</h4>
+                          <div class="tp-section-title-wrapper">
+                              <p>Experience seamless resolution to your IT challenges with Sensepart. Our tailored solutions simplify complexities,
+                                  ensuring optimal performance for your business needs.  </p>
+                          </div>
+                        </div>
+                        <div class="tp-about-3-item mb-35">
+                          <div class="tp-about-3-item-icon">
+                              <i class="flaticon-solution"></i>
+                          </div>
+                          <div class="tp-about-3-item-content">
+                              <h4 class="tp-about-3-item-title">Deliver awesome idea</h4>
+                              <p>Transform your concepts into reality with <br>our expert team.</p>
+                          </div>
+                        </div>
+                        <div class="tp-about-3-list mb-45">
+                          <ul>
+                              <li><span><img src="{{ asset('assets/img/icon/check-mark.png') }}" alt="" style="width: 30px;"></span>Streamline processes for enhanced efficiency.</li>
+                              <li><span><img src="{{ asset('assets/img/icon/check-mark.png') }}" alt="" style="width: 30px;"></span>Customized solutions tailored to your needs.</li>
+                          </ul>
+                        </div>
+                        <div class="tp-about-3-details  d-flex align-items-center">
+                          <div class="tp-about-3-btn">
+                              <a class="tp-btn" href="{{ asset('about') }}">Learn More</a>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </section>
+          <!-- welcome-end -->
+
+          <!-- Offering-area-start -->
+          <section class="offering-area tp-offer-bg pb-80 pt-120" style="background-image: url('{{ asset('assets/img/bg/offer-bg-1.jpg') }}');">
+              <div class="container">
+                <div class="row align-items-end">
+                    <div class="col-lg-7">
+                      <div class="tp-section tp-section-white-two mb-80">
+                          <span class="tp-section-sub-title">What We’re Offering</span>
+                          <h4 class="tp-section-title">We Provide Exclusive Service <br> For Your Business</h4>
+                      </div>
+                    </div>
+                    <div class="col-lg-5">
+                      <div class="tp-section-title-wrapper mb-80"> 
+                          <p>We consider everything – aesthetics, substrates, prepress, binding, and finishing. Our expertise
+                              goes beyond what most marketers are expected to know.</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                      <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s">
+                          <div class="tp-offer-item-icon">
+                            <img src="{{ asset('assets/img/icon/world-wide-web.png') }}" alt="" style="width: 50px;">
+                          </div>
+                          <div class="tp-offer-item-content">
+                            <h4 class="tp-offer-item-title under-line-white"><a href="{{ asset('web') }}">Web <br> Development</a></h4>
+                            <p>Explore cutting-edge web development solutions.</p>
+                          </div>
+                          <div class="tp-offer-item-btn">
+                            <a href="{{ asset('web') }}">Read More <i class="fa-regular fa-arrow-right"></i></a>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                      <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".5s" data-wow-delay=".5s">
+                          <div class="tp-offer-item-icon">
+                            <img src="{{ asset('assets/img/icon/coding.png') }}" alt="" style="width: 50px;">
+                          </div>
+                          <div class="tp-offer-item-content">
+                            <h4 class="tp-offer-item-title under-line-white"><a  href="{{ asset('software') }}">Software Development</a></h4>
+                            <p>Discover advanced software solutions.</p>
+                          </div>
+                          <div class="tp-offer-item-btn">
+                            <a href="{{ asset('software') }}">Read More <i class="fa-regular fa-arrow-right"></i></a>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                      <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".5s" data-wow-delay=".5s">
+                          <div class="tp-offer-item-icon">
+                            <img src="{{ asset('assets/img/icon/ai.png') }}" alt="" style="width: 50px;">
+                          </div>
+                          <div class="tp-offer-item-content">
+                            <h4 class="tp-offer-item-title under-line-white"><a href="{{ asset('ai_ml') }}">Artificial <br> Intelligence</a></h4>
+                            <p>Unlock the potential of artificial intelligence and machine learning.</p>
+                          </div>
+                          <div class="tp-offer-item-btn">
+                            <a href="{{ asset('ai_ml') }}">Read More <i class="fa-regular fa-arrow-right"></i></a>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                      <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s">
+                          <div class="tp-offer-item-icon">
+                            <img src="{{ asset('assets/img/icon/iot.png') }}" alt="" style="width: 50px;">
+                          </div>
+                          <div class="tp-offer-item-content">
+                            <h4 class="tp-offer-item-title under-line-white"><a href="{{ asset('iot') }}">Internet <br> Of Things</a></h4>
+                            <p>Connect and optimize with our seamless IOT solutions.</p>
+                          </div>
+                          <div class="tp-offer-item-btn">
+                            <a href="{{ asset('iot') }}">Read More <i class="fa-regular fa-arrow-right"></i></a>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+          </section>
+          <!-- Offering-area-end -->   
+
+          <!-- project-area-start -->
+          <!-- <section class="project-area tp-project-3-bg pt-115 pb-60 mb-115" data-background="assets/img/project/three/project-3-bg-1.jpg">
+              <div class="container tp-project-3-width">
+                <div class="row">
+                    <div class="col-12">
+                      <div class="tp-section tp-section-3 mb-50 text-center">
+                          <span class="tp-section-sub-title">Recently Completed work</span>
+                          <h4 class="tp-section-title">Check Our latest projects Just <br> We Have Done</h4>
+                      </div>
+                    </div>
+                </div>
+                <div class="swiper-container tp-project-3-slider-active">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                          <div class="tp-project-3-item mb-30 tp-thumb-common fix wow fadeInRight" data-wow-duration="1.2s" data-wow-delay=".6s">
+                            <div class="tp-project-3-thumb">
+                                <div class="tp-thumb-common-overlay wow"></div>
+                                <img src="assets/img/project/three/project-3-thumb-1.jpg" alt="">
+                            </div>
+                            <div class="tp-project-3-info d-flex justify-content-between align-items-center">
+                                <div class="tp-project-3-content">
+                                  <span>Design</span>
+                                  <h4 class="tp-project-3-title under-line-white"><a href="project-details.html">Tech Solution</a></h4>
+                                </div>
+                                <div class="tp-project-3-icon">
+                                  <a href="project-details.html"><i class="fa-sharp fa-regular fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="tp-project-3-item mb-30 tp-thumb-common fix wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s">
+                            <div class="tp-project-3-thumb">
+                                <div class="tp-thumb-common-overlay wow"></div>
+                                <img src="assets/img/project/three/project-3-thumb-2.jpg" alt="">
+                            </div>
+                            <div class="tp-project-3-info d-flex justify-content-between align-items-center">
+                                <div class="tp-project-3-content">
+                                  <span>Development</span>
+                                  <h4 class="tp-project-3-title under-line-white"><a href="project-details.html">Smart Vision</a></h4>
+                                </div>
+                                <div class="tp-project-3-icon">
+                                  <a href="project-details.html"><i class="fa-sharp fa-regular fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="tp-project-3-item mb-30 tp-thumb-common fix wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s">
+                            <div class="tp-project-3-thumb">
+                                <div class="tp-thumb-common-overlay wow"></div>
+                                <img src="assets/img/project/three/project-3-thumb-3.jpg" alt="">
+                            </div>
+                            <div class="tp-project-3-info d-flex justify-content-between align-items-center">
+                                <div class="tp-project-3-content">
+                                  <span>Technology</span>
+                                  <h4 class="tp-project-3-title under-line-white"><a href="project-details.html">Analytic Solution</a></h4>
+                                </div>
+                                <div class="tp-project-3-icon">
+                                  <a href="project-details.html"><i class="fa-sharp fa-regular fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="tp-project-3-item mb-30 tp-thumb-common fix wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay=".6s">
+                            <div class="tp-project-3-thumb">
+                                <div class="tp-thumb-common-overlay wow"></div>
+                                <img src="assets/img/project/three/project-3-thumb-4.jpg" alt="">
+                            </div>
+                            <div class="tp-project-3-info d-flex justify-content-between align-items-center">
+                                <div class="tp-project-3-content">
+                                  <span>Marketing</span>
+                                  <h4 class="tp-project-3-title under-line-white"><a href="project-details.html">Digital Marketing</a></h4>
+                                </div>
+                                <div class="tp-project-3-icon">
+                                  <a href="project-details.html"><i class="fa-sharp fa-regular fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+          </section> -->
+          <!-- project-area-end -->
+
+          <!-- solution-area-start -->
+          <section class="solution-area tp-solution-wrapper pb-60 mb-135">
+              <div class="container">
+                <div class="row align-items-end">
+                    <div class="offset-lg-6 col-lg-6">
+                      <div class="tp-solution-wrap ml-40 wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s">
+                          <div class="tp-section tp-section-3 mb-50">
+                            <span class="tp-section-sub-title">Technology Solution</span>
+                            <h4 class="tp-section-title">Smart Ideas Tailored for Your Industry</h4>
+                            <div class="tp-section-title-wrapper">
+                                <p> Experience innovative solutions designed specifically for your industry. Our expertise ensures effective strategies and seamless 
+                                  implementation to elevate your business. </p>
+                            </div>
+                          </div>
+                          <div class="tp-solution-info mb-50">
+                            <ul>
+                                <li>
+                                  <div class="tp-solution-info-item d-flex align-items-center">
+                                      <div class="tp-solution-info-icon">
+                                        <i class="flaticon-technical-support"></i>
+                                      </div>
+                                      <div class="tp-solution-info-content">
+                                        <h4 class="tp-solution-info-title">Satisfaction <br>Guaranteed</h4>
+                                      </div>
+                                  </div>
+                                </li>
+                                <li>
+                                  <div class="tp-solution-info-item d-flex align-items-center">
+                                      <div class="tp-solution-info-icon">
+                                        <i class="flaticon-optimization"></i>
+                                      </div>
+                                      <div class="tp-solution-info-content">
+                                        <h4 class="tp-solution-info-title">Continuous <br>Technical Assistance</h4>
+                                      </div>
+                                  </div>
+                                </li>
+                            </ul>
+                          </div>
+                          <div class="tp-solution-list">
+                            <ul>
+                                <li><span><img src="{{ asset('assets/img/icon/check-mark.png') }}" alt="" style="width: 30px;"></span>24/7 support for seamless operations.</li>
+                                <li><span><img src="{{ asset('assets/img/icon/check-mark.png') }}" alt="" style="width: 30px;"></span>Expert guidance for your technical inquiries.</li>                              
+                            </ul>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <div class="tp-solution-bg" style="background-image: url('{{ asset('assets/img/bg/solution-bg-1.jpg') }}');"> </div>
+              <div class="tp-solution-shape-1">
+                <img src="{{ asset('assets/img/shape/solution-shape-1.png') }}" alt="">
+              </div>
+          </section>
+          <!-- solution-area-end -->
+
+    </div>
+     <!-- CONTENT END -->    
 @endsection
