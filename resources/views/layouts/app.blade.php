@@ -36,7 +36,7 @@
   <div class="content-wrapper">
    @if(!isset($ignore_loader) || !$ignore_loader)
    <!-- pre loader area start -->
-    <div id="loading">
+    {{-- <div id="loading">
       <div id="loading-center">
          <div id="loading-center-absolute">
             <!-- loading content here -->
@@ -55,7 +55,7 @@
             </div>
          </div>
       </div>
-   </div> 
+   </div>  --}}
    <!-- pre loader area end -->
    @endif
    <!-- back to top start -->
@@ -183,7 +183,7 @@
                                <i class="fa-solid fa-envelope"></i> <a href="{{ asset('mailto:info@sensepart.in') }}">info@sensepart.in</a>
                             </div>
                             <div class="tp-footer-widget-content-list-item">
-                               <i class="fa-solid fa-location-dot"></i> <a href="#">304 3rd Floor, Atlantis, Opposite Vadodara central,<br> VADODARA, GUJARAT, 390020 </a>
+                               <i class="fa-solid fa-location-dot"></i> <a href="#">22 Meridian RD, Unit 17,<br> Edison, NJ 08820</a>
                             </div>
                          </div>
                       </div>
