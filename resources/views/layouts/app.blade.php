@@ -175,18 +175,21 @@
                          </a>
                       </div>
                       <div class="tp-footer-widget-content">
-                         <div class="tp-footer-widget-content-list">
-                            <div class="tp-footer-widget-content-list-item">
-                               <i class="fa-solid fa-square-phone"></i><a href="{{ asset('tel:9265364235') }}">+9265364235</a>
+                        <div class="tp-footer-widget-content-list">
+                            <div class="tp-footer-widget-content-list-item mt-2">
+                                <i class="fa-solid fa-square-phone fa-lg me-3"></i>
+                                <a href="tel:9265364235">+9265364235</a>
                             </div>
-                            <div class="tp-footer-widget-content-list-item">
-                               <i class="fa-solid fa-envelope"></i> <a href="{{ asset('mailto:info@sensepart.in') }}">info@sensepart.in</a>
+                            <div class="tp-footer-widget-content-list-item mt-2">
+                                <i class="fa-solid fa-envelope fa-lg me-3"></i>
+                                <a href="mailto:info@sensepart.in">info@sensepart.in</a>
                             </div>
-                            <div class="tp-footer-widget-content-list-item">
-                               <i class="fa-solid fa-location-dot"></i> <a href="#">22 Meridian RD, Unit 17,<br> Edison, NJ 08820</a>
+                            <div class="tp-footer-widget-content-list-item mt-2">
+                                <i class="fa-solid fa-location-dot fa-lg me-3"></i>
+                                <a href="#">22 Meridian RD, Unit 17, Edison, NJ 08820</a>
                             </div>
-                         </div>
-                      </div>
+                        </div>
+                    </div>                 
                    </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 pt-30">
@@ -203,7 +206,7 @@
                   </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 pt-30">
-                   <div class="tp-footer-widget tp-footer-col-4 mb-40">
+                   <div class="tp-footer-widget tp-footer-col-4 mb-40"> 
                       <h4 class="tp-footer-widget-title mb-30">Our Services</h4>
                       <div class="tp-footer-widget-link">
                           <ul>
