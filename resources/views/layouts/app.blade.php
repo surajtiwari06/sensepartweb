@@ -186,8 +186,12 @@
                             </div>
                             <div class="tp-footer-widget-content-list-item mt-2">
                                 <i class="fa-solid fa-location-dot fa-lg me-3"></i>
-                                <a href="#">22 Meridian RD, Unit 17, Edison, NJ 08820</a>
+                                <a href="#">22 Meridian RD, Unit 17, Edison,</a>
                             </div>
+                            <div class="tp-footer-widget-content-list-item ">
+                              <i class="me-3 pe-3"></i>
+                              <a href="#">NJ, USA, 08820</a>
+                          </div>
                         </div>
                     </div>                 
                    </div>
